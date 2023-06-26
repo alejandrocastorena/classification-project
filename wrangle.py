@@ -90,7 +90,3 @@ def avg_monthly_spend(df):
     avg_churned_spend = churned_df['monthly_charges'].mean()
     avg_not_churned_spend = not_churned_df['monthly_charges'].mean()
     return avg_churned_spend, avg_not_churned_spend
-<<<<<<< HEAD
-
-=======
->>>>>>> e9937f1e21a0297b6b33267b8fbd19af7888ca3c
